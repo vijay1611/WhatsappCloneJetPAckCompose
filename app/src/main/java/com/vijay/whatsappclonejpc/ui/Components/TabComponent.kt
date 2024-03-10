@@ -85,7 +85,7 @@ fun TabWithUnreadCount(tabData: TabData){
         tabData.unreadCount.also {unreadCount->
           Text(text = unreadCount.toString(),
               modifier = Modifier
-                  .padding(4.dp)
+                  .padding(6.dp)
                   .size(18.dp)
                   .clip(CircleShape)
                   .background(MaterialTheme.colorScheme.background),
