@@ -28,5 +28,11 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+    @Preview
+    @Composable
+    fun viewScreen(){
+        HomeScreen()
+    }
 }
 
